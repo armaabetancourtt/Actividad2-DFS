@@ -15,7 +15,7 @@ body {
 #hero {
     position: relative;
     padding: 60px 20px;
-    background: url('banner.jpg') center/cover;
+    background: url('../img/banner.jpg') center/cover;
     text-align: center;
     color: white;
 }
@@ -536,4 +536,5 @@ select {
     #btn-cancel {
         min-height: 44px;
     }
+
 }
