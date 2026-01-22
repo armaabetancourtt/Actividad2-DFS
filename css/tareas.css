@@ -161,7 +161,6 @@ select {
     background: #1b5e20;
 }
 
-
 .completada .toggle-btn {
     background: #f57c00;
 }
@@ -169,7 +168,6 @@ select {
 .completada .toggle-btn:hover {
     background: #ef6c00;
 }
-
 
 /* SECCION TAREA */
 #container {
@@ -231,14 +229,14 @@ select {
     border-radius: 15px;
 }
 
-.status-label:has(:not(i)) {
+/* Reemplazo :has() y :contains() por clases compatibles */
+.status-label.normal {
     background: #f5f5f5;
 }
 
-.task-card:has(.status-label:contains("Finalizado")) {
+.task-card.finalizado {
     border-left: 5px solid #2e7d32;
 }
-
 
 /* PUNTOS DE ESTADO */
 .dot-Mantenimiento { color: #f1c40f; }
@@ -434,7 +432,6 @@ select {
     pointer-events: auto;
 }
 
-
 /* Configuración para tablets */
 @media (max-width: 1024px) {
     #container {
@@ -536,5 +533,4 @@ select {
     #btn-cancel {
         min-height: 44px;
     }
-
 }
