@@ -80,7 +80,7 @@ body {
     min-height: 100vh;
     background:
         linear-gradient(rgba(50, 0, 240, 0.7), rgba(0, 0, 60, 0.7)),
-        url("banner.jpg");
+        url("img/banner.jpg");
     background-size: cover;
     background-position: center;
     padding: 2rem;
